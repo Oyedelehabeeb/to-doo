@@ -1,0 +1,102 @@
+body {
+  background-color: blue;
+  box-sizing: border-box;
+
+}
+
+
+main {
+  text-align: center;
+  margin-block-start: 250px;
+  margin-inline-start: 230px;
+  position: absolute;
+  min-width: 450px;
+  min-height: 100px;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  color: white;
+  margin-inline-start: -85px;
+  text-transform: capitalize;
+}
+
+input {
+  width: 160px;
+  height: 40px;
+  border: 1px solid;
+  border-width: 2px;
+  padding-inline-start: 10px;
+}
+
+#btn {
+  width: 100px;
+  height: 40px;
+}
+
+
+#tasks {
+  border-radius: 10px;
+  height: 8px;
+  width: 70%;
+  position: relative;
+  margin-block-start: -60px;
+  padding: 30px 20px;
+  margin-inline-start: 115px;
+}
+
+
+
+#task {
+  color: black;
+  margin-top: -10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px 30px;
+  background-color: #c5e1e6;
+  margin-bottom: 25px;
+  margin-inline-start: -60px;
+  justify-content: space-between;
+  width: 100%;
+  column-gap: 40px;
+}
+
+.span-div {
+  width: 85%;
+  overflow: hidden;
+  line-break: anywhere;
+  text-align: left;
+}
+
+.task-span {
+  float: left;
+}
+
+.div-delete {
+  margin-inline-start: 25%;
+  width: 35%;
+}
+
+#task span {
+  font-size: 25px;
+  font-weight: 400px;
+}
+
+.delete {
+  width: 50px;
+  height: 20px;
+  background-color: blue;
+  margin-inline-start: 70%;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  position: relative;
+  box-sizing: border-box;
+}
+
+#taskss {
+  margin-inline-start: -70px;
+  position: relative;
+}
