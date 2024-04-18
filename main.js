@@ -24,6 +24,7 @@ buttn.onclick = function () {
   
 <div class="div-delete">
  <button  class="delete">
+ Delete
   </button>
 </div>
  
