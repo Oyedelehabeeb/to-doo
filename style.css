@@ -90,6 +90,7 @@ input {
   background-color: blue;
   margin-inline-start: 70%;
   cursor: pointer;
+  color: white;
   border-radius: 5px;
   border: none;
   position: relative;
